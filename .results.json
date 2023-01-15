@@ -2,32 +2,27 @@
   "stats": {
     "suites": 4,
     "tests": 9,
-    "passes": 8,
+    "passes": 9,
     "pending": 0,
-    "failures": 1,
-    "start": "2023-01-11T19:38:57.652Z",
-    "end": "2023-01-11T19:38:57.931Z",
-    "duration": 279
+    "failures": 0,
+    "start": "2023-01-15T23:40:10.882Z",
+    "end": "2023-01-15T23:40:11.151Z",
+    "duration": 269
   },
   "tests": [
     {
       "title": "gives customers a free sample if the ride is less than or equal to 400 feet",
       "fullTitle": "index.js scuberGreetingForFeet() gives customers a free sample if the ride is less than or equal to 400 feet",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "charges 20 dollars for a distance between 400 and 2000 feet",
       "fullTitle": "index.js scuberGreetingForFeet() charges 20 dollars for a distance between 400 and 2000 feet",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'That will be twenty bucks.'",
-        "showDiff": true,
-        "expected": "That will be twenty bucks.",
-        "stack": "AssertionError: expected undefined to equal 'That will be twenty bucks.'\n    at Context.<anonymous> (test/indexTest.js:10:46)\n    at process.processImmediate (node:internal/timers:471:21)"
-      }
+      "err": {}
     },
     {
       "title": "charges 30 dollars for a distance over 2000 feet",
@@ -60,7 +55,7 @@
     {
       "title": "should return \"Thank you so much.\" if the tip is generous",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you so much.\" if the tip is generous",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -80,25 +75,19 @@
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "charges 20 dollars for a distance between 400 and 2000 feet",
-      "fullTitle": "index.js scuberGreetingForFeet() charges 20 dollars for a distance between 400 and 2000 feet",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'That will be twenty bucks.'",
-        "showDiff": true,
-        "expected": "That will be twenty bucks.",
-        "stack": "AssertionError: expected undefined to equal 'That will be twenty bucks.'\n    at Context.<anonymous> (test/indexTest.js:10:46)\n    at process.processImmediate (node:internal/timers:471:21)"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "gives customers a free sample if the ride is less than or equal to 400 feet",
       "fullTitle": "index.js scuberGreetingForFeet() gives customers a free sample if the ride is less than or equal to 400 feet",
-      "duration": 1,
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "charges 20 dollars for a distance between 400 and 2000 feet",
+      "fullTitle": "index.js scuberGreetingForFeet() charges 20 dollars for a distance between 400 and 2000 feet",
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -133,7 +122,7 @@
     {
       "title": "should return \"Thank you so much.\" if the tip is generous",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you so much.\" if the tip is generous",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
